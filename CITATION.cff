@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying preprint if you use this dataset."
+title: "SAPIO MORPHEUS: A Black-Box Evaluation of Weighted Max-Cut on One CPU Core"
+version: 1.0.0
+date-released: 2026-11-24
+authors:
+  - family-names: Majchrzak
+    given-names: Filip
+    orcid: "https://orcid.org/0009-0007-3475-8900"
+url: "https://github.com/kosza123/SAPIO-MORPHEUS-BLACKBOX-CHALLENGE/releases/tag/v1.0.0"
+repository-code: "https://github.com/kosza123/SAPIO-MORPHEUS-BLACKBOX-CHALLENGE"

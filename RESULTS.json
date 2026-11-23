@@ -1,0 +1,438 @@
+{
+  "audit": {
+    "graphs": 20,
+    "missing_or_invalid": 0,
+    "scheduled": 300,
+    "verified_partitions": 300
+  },
+  "comparisons": {
+    "Best public reference": {
+      "complete_paired_blocks": 60,
+      "family": {
+        "bqp500": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.0,
+          "median_cut_margin": 0,
+          "median_normalized_pp": 0.0,
+          "sign_test_one_sided": 1.0,
+          "ties": 5,
+          "wins": 0
+        },
+        "modular": {
+          "graphs": 5,
+          "losses": 5,
+          "mean_normalized_pp": -0.039204540190893325,
+          "median_cut_margin": -9,
+          "median_normalized_pp": -0.041514830019834865,
+          "sign_test_one_sided": 1.0,
+          "ties": 0,
+          "wins": 0
+        },
+        "torus": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.25464504874862276,
+          "median_cut_margin": 8,
+          "median_normalized_pp": 0.25,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "uniform": {
+          "graphs": 5,
+          "losses": 3,
+          "mean_normalized_pp": -0.024088071149919964,
+          "median_cut_margin": -1,
+          "median_normalized_pp": -0.02162629757785467,
+          "sign_test_one_sided": 1.0,
+          "ties": 2,
+          "wins": 0
+        }
+      },
+      "graph_margins": {
+        "bqp500-1": 0,
+        "bqp500-2": 0,
+        "bqp500-3": 0,
+        "bqp500-4": 0,
+        "bqp500-5": 0,
+        "modular-01": -10,
+        "modular-02": -3,
+        "modular-03": -1,
+        "modular-04": -11,
+        "modular-05": -9,
+        "torus-01": 4,
+        "torus-02": 4,
+        "torus-03": 8,
+        "torus-04": 10,
+        "torus-05": 8,
+        "uniform-01": 0,
+        "uniform-02": -1,
+        "uniform-03": 0,
+        "uniform-04": -3,
+        "uniform-05": -3
+      },
+      "total": {
+        "graphs": 20,
+        "losses": 8,
+        "mean_normalized_pp": 0.04783810935195236,
+        "median_cut_margin": 0.0,
+        "median_normalized_pp": 0.0,
+        "sign_test_one_sided": 0.8665771484375,
+        "ties": 7,
+        "wins": 5
+      }
+    },
+    "DWave-Tabu": {
+      "complete_paired_blocks": 60,
+      "family": {
+        "bqp500": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.0,
+          "median_cut_margin": 0,
+          "median_normalized_pp": 0.0,
+          "sign_test_one_sided": 1.0,
+          "ties": 5,
+          "wins": 0
+        },
+        "modular": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 1.9375211335995173,
+          "median_cut_margin": 345,
+          "median_normalized_pp": 1.9880990820609807,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "torus": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.47572506894145056,
+          "median_cut_margin": 12,
+          "median_normalized_pp": 0.46296296296296297,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "uniform": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 1.0295823183364008,
+          "median_cut_margin": 62,
+          "median_normalized_pp": 1.1599722991689752,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        }
+      },
+      "graph_margins": {
+        "bqp500-1": 0,
+        "bqp500-2": 0,
+        "bqp500-3": 0,
+        "bqp500-4": 0,
+        "bqp500-5": 0,
+        "modular-01": 221,
+        "modular-02": 331,
+        "modular-03": 345,
+        "modular-04": 391,
+        "modular-05": 431,
+        "torus-01": 8,
+        "torus-02": 8,
+        "torus-03": 12,
+        "torus-04": 16,
+        "torus-05": 20,
+        "uniform-01": 23,
+        "uniform-02": 41,
+        "uniform-03": 62,
+        "uniform-04": 67,
+        "uniform-05": 86
+      },
+      "total": {
+        "graphs": 20,
+        "losses": 0,
+        "mean_normalized_pp": 0.8607071302193422,
+        "median_cut_margin": 21.5,
+        "median_normalized_pp": 0.59326171875,
+        "sign_test_one_sided": 3.0517578125e-05,
+        "ties": 5,
+        "wins": 15
+      }
+    },
+    "MQLib-Burer": {
+      "complete_paired_blocks": 60,
+      "family": {
+        "bqp500": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.0014770399987936854,
+          "median_cut_margin": 9,
+          "median_normalized_pp": 0.0011595143953712186,
+          "sign_test_one_sided": 0.125,
+          "ties": 2,
+          "wins": 3
+        },
+        "modular": {
+          "graphs": 5,
+          "losses": 5,
+          "mean_normalized_pp": -0.0362818454663573,
+          "median_cut_margin": -8,
+          "median_normalized_pp": -0.041514830019834865,
+          "sign_test_one_sided": 1.0,
+          "ties": 0,
+          "wins": 0
+        },
+        "torus": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.2700771475140548,
+          "median_cut_margin": 8,
+          "median_normalized_pp": 0.25,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "uniform": {
+          "graphs": 5,
+          "losses": 3,
+          "mean_normalized_pp": -0.019205258649919964,
+          "median_cut_margin": -1,
+          "median_normalized_pp": -0.02162629757785467,
+          "sign_test_one_sided": 0.9375,
+          "ties": 1,
+          "wins": 1
+        }
+      },
+      "graph_margins": {
+        "bqp500-1": 9,
+        "bqp500-2": 18,
+        "bqp500-3": 0,
+        "bqp500-4": 30,
+        "bqp500-5": 0,
+        "modular-01": -8,
+        "modular-02": -3,
+        "modular-03": -1,
+        "modular-04": -11,
+        "modular-05": -9,
+        "torus-01": 4,
+        "torus-02": 4,
+        "torus-03": 10,
+        "torus-04": 10,
+        "torus-05": 8,
+        "uniform-01": 1,
+        "uniform-02": -1,
+        "uniform-03": 0,
+        "uniform-04": -3,
+        "uniform-05": -3
+      },
+      "total": {
+        "graphs": 20,
+        "losses": 8,
+        "mean_normalized_pp": 0.05401677084914282,
+        "median_cut_margin": 0.0,
+        "median_normalized_pp": 0.0,
+        "sign_test_one_sided": 0.5,
+        "ties": 3,
+        "wins": 9
+      }
+    },
+    "MQLib-Pal": {
+      "complete_paired_blocks": 60,
+      "family": {
+        "bqp500": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.0,
+          "median_cut_margin": 0,
+          "median_normalized_pp": 0.0,
+          "sign_test_one_sided": 1.0,
+          "ties": 5,
+          "wins": 0
+        },
+        "modular": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.06219747385234738,
+          "median_cut_margin": 7,
+          "median_normalized_pp": 0.044737010289512366,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "torus": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.5175704795535526,
+          "median_cut_margin": 14,
+          "median_normalized_pp": 0.48476454293628807,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "uniform": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.1712729214273957,
+          "median_cut_margin": 8,
+          "median_normalized_pp": 0.1953125,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        }
+      },
+      "graph_margins": {
+        "bqp500-1": 0,
+        "bqp500-2": 0,
+        "bqp500-3": 0,
+        "bqp500-4": 0,
+        "bqp500-5": 0,
+        "modular-01": 1,
+        "modular-02": 7,
+        "modular-03": 28,
+        "modular-04": 6,
+        "modular-05": 15,
+        "torus-01": 14,
+        "torus-02": 12,
+        "torus-03": 12,
+        "torus-04": 14,
+        "torus-05": 14,
+        "uniform-01": 8,
+        "uniform-02": 8,
+        "uniform-03": 4,
+        "uniform-04": 12,
+        "uniform-05": 13
+      },
+      "total": {
+        "graphs": 20,
+        "losses": 0,
+        "mean_normalized_pp": 0.18776021870832393,
+        "median_cut_margin": 8.0,
+        "median_normalized_pp": 0.11802188568109998,
+        "sign_test_one_sided": 3.0517578125e-05,
+        "ties": 5,
+        "wins": 15
+      }
+    },
+    "MQLib-Restarts": {
+      "complete_paired_blocks": 60,
+      "family": {
+        "bqp500": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.0,
+          "median_cut_margin": 0,
+          "median_normalized_pp": 0.0,
+          "sign_test_one_sided": 1.0,
+          "ties": 5,
+          "wins": 0
+        },
+        "modular": {
+          "graphs": 5,
+          "losses": 1,
+          "mean_normalized_pp": -0.011028107659392857,
+          "median_cut_margin": 0,
+          "median_normalized_pp": 0.0,
+          "sign_test_one_sided": 0.5,
+          "ties": 2,
+          "wins": 2
+        },
+        "torus": {
+          "graphs": 5,
+          "losses": 0,
+          "mean_normalized_pp": 0.2671450487486227,
+          "median_cut_margin": 8,
+          "median_normalized_pp": 0.30864197530864196,
+          "sign_test_one_sided": 0.03125,
+          "ties": 0,
+          "wins": 5
+        },
+        "uniform": {
+          "graphs": 5,
+          "losses": 2,
+          "mean_normalized_pp": -0.009712603878116344,
+          "median_cut_margin": 0,
+          "median_normalized_pp": 0.0,
+          "sign_test_one_sided": 1.0,
+          "ties": 3,
+          "wins": 0
+        }
+      },
+      "graph_margins": {
+        "bqp500-1": 0,
+        "bqp500-2": 0,
+        "bqp500-3": 0,
+        "bqp500-4": 0,
+        "bqp500-5": 0,
+        "modular-01": -10,
+        "modular-02": 2,
+        "modular-03": 0,
+        "modular-04": 1,
+        "modular-05": 0,
+        "torus-01": 4,
+        "torus-02": 4,
+        "torus-03": 8,
+        "torus-04": 10,
+        "torus-05": 10,
+        "uniform-01": 0,
+        "uniform-02": 0,
+        "uniform-03": 0,
+        "uniform-04": -1,
+        "uniform-05": -2
+      },
+      "total": {
+        "graphs": 20,
+        "losses": 3,
+        "mean_normalized_pp": 0.061601084302778386,
+        "median_cut_margin": 0.0,
+        "median_normalized_pp": 0.0,
+        "sign_test_one_sided": 0.171875,
+        "ties": 10,
+        "wins": 7
+      }
+    }
+  },
+  "primary_success": false,
+  "resources": {
+    "DWave-Tabu": {
+      "deadline_count": 60,
+      "max_sampled_rss_kib": 167748,
+      "median_sampled_rss_kib": 120004.0,
+      "median_wall_s": 24.02354004,
+      "observed_runs": 60,
+      "total_cpu_s": 1223.262945
+    },
+    "MQLib-Burer": {
+      "deadline_count": 0,
+      "max_sampled_rss_kib": 5168,
+      "median_sampled_rss_kib": 4764.0,
+      "median_wall_s": 23.972963868,
+      "observed_runs": 60,
+      "total_cpu_s": 1466.8670749999999
+    },
+    "MQLib-Pal": {
+      "deadline_count": 10,
+      "max_sampled_rss_kib": 5764,
+      "median_sampled_rss_kib": 4970.0,
+      "median_wall_s": 23.986696443,
+      "observed_runs": 60,
+      "total_cpu_s": 1467.400187
+    },
+    "MQLib-Restarts": {
+      "deadline_count": 0,
+      "max_sampled_rss_kib": 5844,
+      "median_sampled_rss_kib": 5560.0,
+      "median_wall_s": 23.9737395865,
+      "observed_runs": 60,
+      "total_cpu_s": 1466.478088
+    },
+    "Morpheus": {
+      "deadline_count": 42,
+      "max_sampled_rss_kib": 172520,
+      "median_sampled_rss_kib": 126642.0,
+      "median_wall_s": 24.0190604225,
+      "observed_runs": 60,
+      "total_cpu_s": 1086.596941
+    }
+  }
+}

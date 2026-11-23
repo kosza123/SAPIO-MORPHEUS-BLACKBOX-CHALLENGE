@@ -1,0 +1,32 @@
+{
+  "dataset": "https://doi.org/10.5281/zenodo.14290290",
+  "dataset_license": "Apache-2.0",
+  "archive_md5": "79ad4cd2084b047295b0cc360f3f03aa",
+  "files": [
+    {
+      "file": "bqp500-1.mc",
+      "upstream_path": "Rudolfovoorg-MaxCut_benchmarkdata-39ed9bf/bqp/bqp500-1.sparse.mc",
+      "sha256": "5925b025044b131cb7f37d3af1aa1d94bd1f2366bc838cb9090dc67f89e11a3e"
+    },
+    {
+      "file": "bqp500-2.mc",
+      "upstream_path": "Rudolfovoorg-MaxCut_benchmarkdata-39ed9bf/bqp/bqp500-2.sparse.mc",
+      "sha256": "bbf5040a2504761061f6b7af800aaacb2a51de4e5587bbb751501239cbd32593"
+    },
+    {
+      "file": "bqp500-3.mc",
+      "upstream_path": "Rudolfovoorg-MaxCut_benchmarkdata-39ed9bf/bqp/bqp500-3.sparse.mc",
+      "sha256": "22a1c8cc19eb3bf1759ed28f5c8d8ceb5df92790997539e04e62c334b300953d"
+    },
+    {
+      "file": "bqp500-4.mc",
+      "upstream_path": "Rudolfovoorg-MaxCut_benchmarkdata-39ed9bf/bqp/bqp500-4.sparse.mc",
+      "sha256": "2216b424c21220e472d2b40316fd654b7bac86b269e23b76f632c8f2fbd89c57"
+    },
+    {
+      "file": "bqp500-5.mc",
+      "upstream_path": "Rudolfovoorg-MaxCut_benchmarkdata-39ed9bf/bqp/bqp500-5.sparse.mc",
+      "sha256": "08892eb8422c791648581dfa1a711ff416ccdba69b48a4829e22a0b9604cc41c"
+    }
+  ]
+}

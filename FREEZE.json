@@ -1,0 +1,996 @@
+{
+  "version": "1.0.0",
+  "frozen_utc": "2026-11-23T23:14:17.733694+00:00",
+  "methods": [
+    "Morpheus",
+    "MQLib-Burer",
+    "MQLib-Pal",
+    "MQLib-Restarts",
+    "DWave-Tabu"
+  ],
+  "budget_ns": 24000000000,
+  "threads_per_trial": 1,
+  "cpus": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+  ],
+  "processor": "AMD Ryzen 7 4700G (WSL2, Ubuntu 24.04)",
+  "prepared_from": "15 fixed synthetic graphs and five independent Beasley BQP500 conversions",
+  "protocol_sha256": "91f4b1a66ecbaca7e4e9a5b38d699808ae5b8e5ffd4b3f0cace4b625692c9a2b",
+  "graphs": [
+    {
+      "id": "bqp500-1",
+      "name": "bqp500-1.mc",
+      "sha256": "5925b025044b131cb7f37d3af1aa1d94bd1f2366bc838cb9090dc67f89e11a3e",
+      "vertices": 501,
+      "edges": 12871,
+      "family": "bqp500",
+      "absolute_weight": 776187
+    },
+    {
+      "id": "bqp500-2",
+      "name": "bqp500-2.mc",
+      "sha256": "bbf5040a2504761061f6b7af800aaacb2a51de4e5587bbb751501239cbd32593",
+      "vertices": 501,
+      "edges": 12778,
+      "family": "bqp500",
+      "absolute_weight": 778057
+    },
+    {
+      "id": "bqp500-3",
+      "name": "bqp500-3.mc",
+      "sha256": "22a1c8cc19eb3bf1759ed28f5c8d8ceb5df92790997539e04e62c334b300953d",
+      "vertices": 501,
+      "edges": 13021,
+      "family": "bqp500",
+      "absolute_weight": 787922
+    },
+    {
+      "id": "bqp500-4",
+      "name": "bqp500-4.mc",
+      "sha256": "2216b424c21220e472d2b40316fd654b7bac86b269e23b76f632c8f2fbd89c57",
+      "vertices": 501,
+      "edges": 12779,
+      "family": "bqp500",
+      "absolute_weight": 766826
+    },
+    {
+      "id": "bqp500-5",
+      "name": "bqp500-5.mc",
+      "sha256": "08892eb8422c791648581dfa1a711ff416ccdba69b48a4829e22a0b9604cc41c",
+      "vertices": 501,
+      "edges": 12830,
+      "family": "bqp500",
+      "absolute_weight": 786526
+    },
+    {
+      "id": "modular-01",
+      "name": "modular-01.mc",
+      "sha256": "d80030d4b0c44f1211a88609a78c9ede61daa335c0a21fa4854d1ff0e1733046",
+      "vertices": 1024,
+      "edges": 4608,
+      "family": "modular",
+      "absolute_weight": 13686
+    },
+    {
+      "id": "modular-02",
+      "name": "modular-02.mc",
+      "sha256": "658bf0b10a56c65bfe52069c6e696026bdf6a52bd4eb354a0f8df994de68d0c9",
+      "vertices": 1156,
+      "edges": 5202,
+      "family": "modular",
+      "absolute_weight": 15647
+    },
+    {
+      "id": "modular-03",
+      "name": "modular-03.mc",
+      "sha256": "f6148d335470114d9cf15dfde85e83448546138bdafb960d93316cf3d22902aa",
+      "vertices": 1296,
+      "edges": 5832,
+      "family": "modular",
+      "absolute_weight": 17623
+    },
+    {
+      "id": "modular-04",
+      "name": "modular-04.mc",
+      "sha256": "1375cbb6590986df8f983b628337b63a0b9822087aad4be4b678461b9bff2582",
+      "vertices": 1444,
+      "edges": 6498,
+      "family": "modular",
+      "absolute_weight": 19437
+    },
+    {
+      "id": "modular-05",
+      "name": "modular-05.mc",
+      "sha256": "6e9f2c0405bb5d829a6c52057815f7dcd8fd715dcd3fc324707688526f25f070",
+      "vertices": 1600,
+      "edges": 7200,
+      "family": "modular",
+      "absolute_weight": 21679
+    },
+    {
+      "id": "torus-01",
+      "name": "torus-01.mc",
+      "sha256": "cf4f5ef0fafa5e1d935fb9a5d7c892bef76aea86a6c1da7b33dd82b426dc81b1",
+      "vertices": 1024,
+      "edges": 2048,
+      "family": "torus",
+      "absolute_weight": 2048
+    },
+    {
+      "id": "torus-02",
+      "name": "torus-02.mc",
+      "sha256": "13ac3f2995e6886b1b51246ec96e66db37f8542a8f2a323b9b476cc8d774e620",
+      "vertices": 1156,
+      "edges": 2312,
+      "family": "torus",
+      "absolute_weight": 2312
+    },
+    {
+      "id": "torus-03",
+      "name": "torus-03.mc",
+      "sha256": "56665a2b8d856f8ecc6b22f0c7b7abd840619afb6e53947f6d53bb25c28ac429",
+      "vertices": 1296,
+      "edges": 2592,
+      "family": "torus",
+      "absolute_weight": 2592
+    },
+    {
+      "id": "torus-04",
+      "name": "torus-04.mc",
+      "sha256": "6bd50a91d54ddff340bf9a8ccd8d21dbf6cbd662e3ef3f86d33a2c1887ecca57",
+      "vertices": 1444,
+      "edges": 2888,
+      "family": "torus",
+      "absolute_weight": 2888
+    },
+    {
+      "id": "torus-05",
+      "name": "torus-05.mc",
+      "sha256": "1415772a4871abea4dd802f338eba018a17538f02229280b83ddfd6c1e95cc63",
+      "vertices": 1600,
+      "edges": 3200,
+      "family": "torus",
+      "absolute_weight": 3200
+    },
+    {
+      "id": "uniform-01",
+      "name": "uniform-01.mc",
+      "sha256": "766efe90bad85feba0640d2e44a8c160c8fbf937acdaab1be7e8b7c86ec2efb6",
+      "vertices": 1024,
+      "edges": 4096,
+      "family": "uniform",
+      "absolute_weight": 4096
+    },
+    {
+      "id": "uniform-02",
+      "name": "uniform-02.mc",
+      "sha256": "32c65c8826825419ce8baed212f6563c9ec9634af271541f4c203b8147970541",
+      "vertices": 1156,
+      "edges": 4624,
+      "family": "uniform",
+      "absolute_weight": 4624
+    },
+    {
+      "id": "uniform-03",
+      "name": "uniform-03.mc",
+      "sha256": "54cb024fad8de0e096e274dec65cddf12893dee08f72b43540f4f5bb638a9ee1",
+      "vertices": 1296,
+      "edges": 5184,
+      "family": "uniform",
+      "absolute_weight": 5184
+    },
+    {
+      "id": "uniform-04",
+      "name": "uniform-04.mc",
+      "sha256": "6088883a0d26f85ec9f9c285ff71383b1a6f28f1928a32c4be8d818e126b6650",
+      "vertices": 1444,
+      "edges": 5776,
+      "family": "uniform",
+      "absolute_weight": 5776
+    },
+    {
+      "id": "uniform-05",
+      "name": "uniform-05.mc",
+      "sha256": "5240cf0d832c7b0c3c75f27db473ed350b5b3d38fd332031602e6a0d1ac326be",
+      "vertices": 1600,
+      "edges": 6400,
+      "family": "uniform",
+      "absolute_weight": 6400
+    }
+  ],
+  "blocks": [
+    {
+      "graph": "bqp500-4",
+      "seed": 25361,
+      "replicate": 3,
+      "cpu": 4,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "uniform-04",
+      "seed": 26847,
+      "replicate": 2,
+      "cpu": 6,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "bqp500-2",
+      "seed": 25159,
+      "replicate": 3,
+      "cpu": 8,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "uniform-01",
+      "seed": 26544,
+      "replicate": 2,
+      "cpu": 10,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "modular-05",
+      "seed": 25909,
+      "replicate": 1,
+      "cpu": 12,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "uniform-02",
+      "seed": 26645,
+      "replicate": 2,
+      "cpu": 14,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "uniform-03",
+      "seed": 26746,
+      "replicate": 2,
+      "cpu": 4,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "bqp500-2",
+      "seed": 25130,
+      "replicate": 2,
+      "cpu": 6,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "uniform-05",
+      "seed": 26948,
+      "replicate": 2,
+      "cpu": 8,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "bqp500-1",
+      "seed": 25000,
+      "replicate": 1,
+      "cpu": 10,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "uniform-04",
+      "seed": 26876,
+      "replicate": 3,
+      "cpu": 12,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "modular-04",
+      "seed": 25837,
+      "replicate": 2,
+      "cpu": 14,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "torus-04",
+      "seed": 26313,
+      "replicate": 1,
+      "cpu": 4,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "torus-05",
+      "seed": 26472,
+      "replicate": 3,
+      "cpu": 6,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "bqp500-4",
+      "seed": 25303,
+      "replicate": 1,
+      "cpu": 8,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "bqp500-1",
+      "seed": 25058,
+      "replicate": 3,
+      "cpu": 10,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "torus-01",
+      "seed": 26039,
+      "replicate": 2,
+      "cpu": 12,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "modular-01",
+      "seed": 25563,
+      "replicate": 3,
+      "cpu": 14,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "torus-01",
+      "seed": 26068,
+      "replicate": 3,
+      "cpu": 4,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "torus-02",
+      "seed": 26111,
+      "replicate": 1,
+      "cpu": 6,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "bqp500-5",
+      "seed": 25433,
+      "replicate": 2,
+      "cpu": 8,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "bqp500-3",
+      "seed": 25202,
+      "replicate": 1,
+      "cpu": 10,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "torus-05",
+      "seed": 26414,
+      "replicate": 1,
+      "cpu": 12,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "uniform-01",
+      "seed": 26515,
+      "replicate": 1,
+      "cpu": 14,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "torus-04",
+      "seed": 26342,
+      "replicate": 2,
+      "cpu": 4,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "uniform-05",
+      "seed": 26977,
+      "replicate": 3,
+      "cpu": 6,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "modular-02",
+      "seed": 25606,
+      "replicate": 1,
+      "cpu": 8,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "torus-02",
+      "seed": 26140,
+      "replicate": 2,
+      "cpu": 10,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "uniform-03",
+      "seed": 26775,
+      "replicate": 3,
+      "cpu": 12,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "modular-05",
+      "seed": 25967,
+      "replicate": 3,
+      "cpu": 14,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "modular-03",
+      "seed": 25736,
+      "replicate": 2,
+      "cpu": 4,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "modular-01",
+      "seed": 25505,
+      "replicate": 1,
+      "cpu": 6,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "torus-03",
+      "seed": 26241,
+      "replicate": 2,
+      "cpu": 8,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "modular-04",
+      "seed": 25808,
+      "replicate": 1,
+      "cpu": 10,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "bqp500-1",
+      "seed": 25029,
+      "replicate": 2,
+      "cpu": 12,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "bqp500-2",
+      "seed": 25101,
+      "replicate": 1,
+      "cpu": 14,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "torus-03",
+      "seed": 26270,
+      "replicate": 3,
+      "cpu": 4,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "modular-04",
+      "seed": 25866,
+      "replicate": 3,
+      "cpu": 6,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "bqp500-3",
+      "seed": 25260,
+      "replicate": 3,
+      "cpu": 8,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "uniform-01",
+      "seed": 26573,
+      "replicate": 3,
+      "cpu": 10,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "bqp500-4",
+      "seed": 25332,
+      "replicate": 2,
+      "cpu": 12,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "bqp500-5",
+      "seed": 25462,
+      "replicate": 3,
+      "cpu": 14,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "uniform-05",
+      "seed": 26919,
+      "replicate": 1,
+      "cpu": 4,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "modular-02",
+      "seed": 25664,
+      "replicate": 3,
+      "cpu": 6,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "uniform-03",
+      "seed": 26717,
+      "replicate": 1,
+      "cpu": 8,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "bqp500-3",
+      "seed": 25231,
+      "replicate": 2,
+      "cpu": 10,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "torus-05",
+      "seed": 26443,
+      "replicate": 2,
+      "cpu": 12,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "modular-05",
+      "seed": 25938,
+      "replicate": 2,
+      "cpu": 14,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "torus-01",
+      "seed": 26010,
+      "replicate": 1,
+      "cpu": 4,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "uniform-02",
+      "seed": 26674,
+      "replicate": 3,
+      "cpu": 6,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "torus-04",
+      "seed": 26371,
+      "replicate": 3,
+      "cpu": 8,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "uniform-02",
+      "seed": 26616,
+      "replicate": 1,
+      "cpu": 10,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "torus-03",
+      "seed": 26212,
+      "replicate": 1,
+      "cpu": 12,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "uniform-04",
+      "seed": 26818,
+      "replicate": 1,
+      "cpu": 14,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "bqp500-5",
+      "seed": 25404,
+      "replicate": 1,
+      "cpu": 4,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    },
+    {
+      "graph": "modular-03",
+      "seed": 25765,
+      "replicate": 3,
+      "cpu": 6,
+      "order": [
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu"
+      ]
+    },
+    {
+      "graph": "torus-02",
+      "seed": 26169,
+      "replicate": 3,
+      "cpu": 8,
+      "order": [
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus"
+      ]
+    },
+    {
+      "graph": "modular-02",
+      "seed": 25635,
+      "replicate": 2,
+      "cpu": 10,
+      "order": [
+        "MQLib-Pal",
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer"
+      ]
+    },
+    {
+      "graph": "modular-01",
+      "seed": 25534,
+      "replicate": 2,
+      "cpu": 12,
+      "order": [
+        "MQLib-Restarts",
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal"
+      ]
+    },
+    {
+      "graph": "modular-03",
+      "seed": 25707,
+      "replicate": 1,
+      "cpu": 14,
+      "order": [
+        "DWave-Tabu",
+        "Morpheus",
+        "MQLib-Burer",
+        "MQLib-Pal",
+        "MQLib-Restarts"
+      ]
+    }
+  ],
+  "support_sha256": {
+    "generate.py": "62b91ef837a87d0cadc57f32798fe71154d25dde70ad4ce844d2ae5fd8dae48f",
+    "verify.py": "fab5b9245b49869e93ee5369855d6902dd05c0e6fff0798c494d300e4ac856bf",
+    "analyze.py": "a546e93283978b841cce7abb009515af4d184229738376ad05f072935a53b5cb",
+    "tabu_output.py": "9fb7ef947b48d77540f4460513e571e690d081c918a9add6d5fcf9a0149da511",
+    "mqlib_output.cpp": "2277783bad6bed0aaa18e37a2bd8453d99c77a575e351f50b88f868f636a6ece",
+    "benchmark/UPSTREAM.json": "27d612056cd4aca6fd545861ade31ebefbc255855145f4ebf41c19ff8b62d380"
+  }
+}
